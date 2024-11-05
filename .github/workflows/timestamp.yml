@@ -2,7 +2,7 @@ name: Automated Commit
 
 on:
   push:
-    branches: [main]  # Trigger on push to the main branch
+    branches: [master]  # Trigger on push to the main branch
   schedule:
     - cron: '0 */12 * * *'  # Run every 12 hours
   workflow_dispatch:  # Allows manual trigger via GitHub UI
